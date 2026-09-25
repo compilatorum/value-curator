@@ -1,0 +1,13 @@
+{
+  "name": "@value-curator/sdk",
+  "version": "0.1.0",
+  "description": "Value Curator SDK: Evidence-Gated Guard & Policy Toolkit for Solana AI Agents and Autonomous Finance",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "type": "module",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

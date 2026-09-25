@@ -1,0 +1,13 @@
+{
+  "name": "@value-curator/examples",
+  "version": "0.1.0",
+  "description": "Value Curator Examples: Runnable Starterkit Recipes",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@value-curator/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

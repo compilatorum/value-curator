@@ -1,0 +1,22 @@
+{
+  "name": "value-curator",
+  "version": "0.1.0",
+  "description": "Value Curator — Evidence-Gated Execution Toolkit & Starterkit for Solana Autonomous Finance & RWAs",
+  "private": true,
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/*",
+    "examples"
+  ],
+  "scripts": {
+    "build": "bun run --filter '*' build 2>/dev/null || true",
+    "test": "bun test packages/sdk",
+    "example:pyth": "bun run examples/01-verify-pyth-mandate.ts",
+    "example:jupiter": "bun run examples/02-guarded-jupiter-swap.ts",
+    "example:vault": "bun run examples/03-pda-vault-deposit.ts",
+    "example:agent": "bun run examples/04-ai-agent-guard.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
